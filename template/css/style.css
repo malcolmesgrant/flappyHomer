@@ -1,0 +1,105 @@
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.alignright {
+	float: right;
+	padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+	float: left;
+	padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+
+
+
+}
+body {
+  background-image: url("https://3.bp.blogspot.com/-Fym0qaZmJN0/U5hUXiuAh4I/AAAAAAAAhIU/oOV7Nw43S-s/s800/bg_pattern1_aozora.png");
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body * {
+  user-select: none;
+}
+
+h1 {
+  position: absolute;
+  color: white;
+}
+
+#startBtn {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+#homer {
+  height: 8%;
+  position: absolute;
+  left: 10%;
+}
+
+.enemy {
+  background-image: url("https://vignette1.wikia.nocookie.net/simpsons/images/5/51/Duff_2.png/revision/latest?cb=20100823114310");
+  width: 10%;
+  height: 100%;
+  position: absolute;
+  left: 100%;
+  background-size: contain;
+}
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
